@@ -12,8 +12,10 @@ on:
 
   workflow_dispatch:
 
+
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   opa-governance:
