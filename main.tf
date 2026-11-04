@@ -20,7 +20,7 @@ resource "azurerm_resource_group" "payment" {
 
   tags = {
     environment = "dev"
-    project     = "payment-application"
+    # project     = "payment-application"
     owner       = "devops-team"
     costcenter  = "TEST1001"
   }
