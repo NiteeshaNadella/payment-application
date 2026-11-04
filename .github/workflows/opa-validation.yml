@@ -21,3 +21,4 @@ jobs:
   opa-governance:
     name: Validate Against Central OPA
     uses: NiteeshaNadella/terraform-opa-poc/.github/workflows/reusable-opa-validation.yml@main
+    secrets: inherit
